@@ -1,0 +1,73 @@
+header {
+    background-color: #232425;
+}
+
+header > .shell:first-child {
+    border-bottom: 1px solid #000;
+}
+
+#logo {
+    display: inline-block;
+    font-size: 20px;
+    color: #999999;
+    font-family: 'Georgia';
+    padding: 38px 0;
+}
+
+#logo:hover,
+#logo:visited {
+    text-decoration: none;
+}
+
+#logo > span {
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    transition: 0.3s;
+}
+
+nav ul li.current a{
+    color: #fff;
+    background-color: red;
+}
+
+nav ul li:hover a{
+    background-color: red;
+    color: #fff;
+}
+
+nav ul li a {
+    min-height: 120px;
+    display: table;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: 'Georgia';
+    font-size: 13px;
+    color: #979797;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:visited {
+    text-decoration: none; 
+}
+
+nav ul li a span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1e1e1e;
+    min-height: 470px;
+}
